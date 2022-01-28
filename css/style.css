@@ -1,0 +1,1405 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+/*******************************************/
+.sec1
+{
+    padding: 20px 0;
+    color: #888888 ;
+}
+.sec1 article p
+{
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sec1 article p:first-child
+{
+    margin-right: 50px;
+}
+.sec1 article i
+{
+    font-size: 14px;
+}
+.sec1 article p:hover
+{
+    color: rgb(54, 54, 128);
+}
+.sec1 .sec1-nav
+{
+    display: flex;
+}
+.sec1 .sec1-nav ul li
+{
+    display: inline-block;
+}
+.sec1 .sec1-nav ul:first-child li:nth-of-type(2)
+{
+    font-size: 18px;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+.sec1 .sec1-nav ul:first-child li a:hover
+{
+    color: rgb(54, 54, 128);
+}
+.sec1 .sec1-nav ul li:hover
+{
+    color: rgb(54, 54, 128);
+}
+.sec1 .sec1-nav ul li a
+{
+    text-decoration: none;
+    color: #888888;
+    font-size: 18px;
+}
+.sec1 .sec1-nav ul:nth-of-type(2)
+{
+    margin-left: 25px;
+}
+.sec1 .sec1-nav ul:nth-of-type(2) li
+{
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+/*********************************************************************/
+header .layerr
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(115,112,216,.5);
+    width: 100%;
+    height: 100%;
+}
+header img
+{
+    height: 100vh;
+    position:relative;
+}
+nav
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+nav article
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav article h1
+{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav article .navbar-toggler
+{
+    background-color: rgba(91, 90, 141, 0.5);
+    border: 1px solid rgba(79, 77, 138, 0.5);
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav article .navbar-toggler span
+{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: rgb(20, 18, 68);
+}
+nav article .navbar-toggler span:last-of-type
+{
+    margin-bottom: 0;
+
+}
+nav .aside-drop
+{
+    display: none;
+}
+
+nav .aside-drop li
+{
+    margin-bottom: 20px;
+}
+nav .aside-drop li a
+{
+    color: #fff  ;
+    text-decoration: none ;
+    font-size: 20px;
+}
+nav aside i
+{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header .carousel article
+{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    width: 90%;
+}
+header .carousel article h1
+{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+header .carousel article p
+{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+header .carousel article figure button
+{
+    display: block;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: #fff;
+    color: #7370D8;
+    padding: 20px 45px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+header .carousel article figure button:hover
+{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+/*********************************************************************/
+
+.sec2 , .sec4
+{
+    padding: 100px 0;
+    text-align: center;
+}
+.sec2 div>p , .sec4 div>p
+{
+    margin-bottom: 60px;
+    color: #968888;
+}
+.sec2 div>h1 ,.sec4 div>h1
+{
+    margin-bottom: 30px;
+}
+
+.sec2 article figure
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 1px #DDD;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    transition: all .5s;
+}
+.sec2 article figure:hover
+{
+    box-shadow: 0 0 15px 1px #DDD;
+}
+.sec2 article figure img,
+.sec4 article figure img
+{
+    margin-bottom:30px ;
+}
+.sec2 article figure h2,
+.sec4 article figure h2
+{
+    font-size: 20px;
+    margin-bottom:30px ;
+}
+.sec2 article figure p,
+.sec2 article figure p
+{
+    color: #968888;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*********************************************************************/
+
+.sec3
+{
+    background-color: #F9FAFF;
+    padding: 70px 0;
+}
+.sec3 article h1
+{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.sec3 article p
+{
+    color: #968888;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.sec3 article button
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #7370D8;
+    display: inline-block;
+    margin-bottom: 50px;
+    transition: all .5s;
+}
+.sec3 article button:hover
+{
+    background-color: #fff;
+    color: #7370D8;
+}
+.sec3 figure img
+{
+    width: 100%;
+}
+
+/*****************************************************/
+
+.sec4 article figure
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    transition: all .5s;
+}
+.sec4 article figure:hover
+{
+    box-shadow: 0 0 15px 1px #DDD;
+}
+.sec4 article figure a
+{
+    color:#9970D8;
+}
+/*********************************************************************/
+
+.sec5
+{
+    background: linear-gradient(rgba(115,112,216,.5),rgba(115,112,216,.5))
+    ,url("../images/counter/counter-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 70px 0;
+}
+.sec5 article figure
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.sec5 article figure img
+{
+    margin-right: 25px;
+}
+.sec5 article figure .sec5-r
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.sec5 article figure .sec5-r h2 p
+{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+/*********************************************************************/
+
+.sec6
+{
+    padding: 70px 0;
+
+}
+.sec6 div>h1
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec6 div>p
+{
+    color: #968888;
+    margin-bottom: 50px;
+}
+.sec6 article figure
+{
+    position: relative;
+}
+.sec6 article figure:first-of-type img
+{
+    width: 100%;
+}
+.sec6 article figure:last-of-type img
+{
+    margin-bottom: 15px;
+}
+.sec6 .slidd
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    background-color: rgba(115,112,216,.5);
+    color: #fff;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec6 article figure:first-of-type:hover .slidd
+{
+    transform: scale(1);
+}
+
+.sec6 .slidd h1,
+.sec6 .slidd p
+{
+    display: none;
+    color: #fff;
+    transition: all .5s;
+}
+
+.sec6 article figure:first-of-type:hover .slidd h1,
+.sec6 article figure:first-of-type:hover .slidd p
+{
+    display: block;
+}
+
+.sec6 button
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #7370D8;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transition: all .5s;
+}
+.sec6 button:hover
+{
+    background-color: #fff;
+    color: #7370D8;
+}
+
+/*********************************************************************/
+
+.sec7
+{
+    background-color: #908DDC;
+    padding: 100px 0;
+    color: #fff;
+}
+.sec7 div>h1
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec7 div>p
+{
+    margin-bottom: 70px;
+}
+.sec7 article figure
+{
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+.sec7 article figure img
+{
+    width: 100%;
+}
+
+.sec7 article figure div
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color:rgba(74,73,129,.8) ;
+    padding: 20px 0 20px 20px ;
+    transition: all .5s;
+}
+
+.sec7 article figure div p
+{
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.sec7 article figure div a
+{
+    font-size: 14px;
+    color: blue !important;
+}
+.sec7 article figure:hover div
+{
+    height:115px;
+}
+/*********************************************************************/
+
+.sec8
+{
+    padding: 100px 0;
+    text-align: center;
+}
+.sec8 div>h1
+{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.sec8 div>p
+{
+    color: #968888;
+    margin-bottom: 50px;
+}
+.sec8 figure
+{
+    opacity: .5;
+    padding:0 0 30px;
+    text-align: center;
+    transition: all .5s;
+    margin-bottom: 30px;
+
+
+}
+.sec8 figure:hover
+{
+    opacity: 1;
+    box-shadow: 0 0 5px 1px #DDD;
+
+}
+.sec8 figure figcaption
+{
+    background-color: #7370D8;
+    color: #fff;
+    padding: 20px 0;
+}
+.sec8 figure figcaption h2
+{
+    padding-top: 5px;
+}
+.sec8 figure figcaption h2:last-of-type
+{
+    font-size: 25px;
+}
+.sec8 article
+{
+    padding-top: 20px;
+}
+.sec8 article p
+{
+    color: #968888;
+
+}
+.sec8 article button
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #7370D8;
+    display: inline-block;
+    margin-top: 50px;
+    transition: all .5s;
+}
+.sec8 article button:hover
+{
+    background-color: #fff;
+    color: #7370D8;
+}
+/*********************************************************************/
+.sec9
+{
+    padding: 50px 0;
+    text-align: center;
+}
+.sec9 div>h1
+{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.sec9 article img
+{
+    border-radius: 50%;
+    border: 2px solid #7370D8;
+    margin-bottom: 50px;
+}
+.sec9 article i
+{
+    display: block;
+    font-size: 35px;
+    color: #C3C3EF;
+    margin-bottom: 50px;
+}
+.sec9 article h3
+{
+    color: #7370D8;
+}
+.sec9 article p
+{
+    color: #968888;
+}
+.sec9 figure
+{
+    text-align: center;
+    margin-top: 50px;
+    color: #49A6E9;
+    font-size: 25px;
+}
+
+.sec9 figure i
+{
+  cursor: pointer;
+}
+.sec9 figure i:first-child
+{
+  margin-right: 20px;
+}
+/*********************************************************************/
+
+.sec10
+{
+    background-color: #7370D8;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.sec10 figure img
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+/*********************************************************************/
+.sec11
+{
+    padding: 70px 0;
+    background-image:  linear-gradient(rgba(136,133,221,.9),rgba(136,133,221,.9))
+    ,url('../images/footer/map.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.sec11>div>h1 , .sec11>div>p
+{
+    text-align:center;
+}
+.sec11>div>p{
+    margin-bottom: 70px;
+}
+.sec11 article figure h3,
+.sec11 article aside h3
+{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sec11 article figure h3:last-of-type
+{
+    margin-top: 40px;
+}
+.sec11 article figure ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.sec11 article aside h3
+{
+    margin-top: 70px;
+}
+.sec11 form input:not(input[type='submit'])
+{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}
+.sec11 form textarea
+{
+    width: 100%;
+    resize: none;
+    padding: 15px 10px;
+}
+.sec11 form>input
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #7370D8;
+    margin-top: 30px;
+    transition: all .5s;
+}
+.sec11 form>input:hover
+{
+    background-color: #fff;
+    color: #7370D8;
+}
+/*********************************************************************/
+
+.sec12
+{
+    background-color: #7370D8;
+    padding: 60px 0;
+    color: #fff;
+}
+.sec12 h2
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.sec12 button
+{
+    background-color:#7370D8 ;
+    color: #fff;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    transition: all .5s;
+    display: inline-block;
+}
+.sec12 button:hover
+{
+    background-color: #fff;
+    color: #7370D8;
+}
+/*********************************************************************/
+
+footer
+{
+    padding:100px 0 ;
+    background-color:#212135;
+    color: #fff;
+}
+footer article h3
+{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+footer article:first-of-type ,
+footer article:nth-of-type(2),
+footer article:nth-of-type(3)
+{
+    margin-bottom: 50px;
+}
+footer article:first-of-type p
+{
+    color: #AAAA99;
+    width: 250px;
+    margin-bottom: 30px;
+}
+footer article:first-of-type ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+footer article:first-of-type ul li i
+{
+    background-color:#AAAAAA ;
+    color: #212135;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+}
+footer article:nth-of-type(2) ul
+{
+    margin-left: 20px;
+}
+footer article:nth-of-type(2) ul li
+{
+    margin-bottom: 20px;
+}
+footer article:nth-of-type(2) ul li a
+{
+    color:#AAAA99 ;
+}
+
+footer article:nth-of-type(3) p,
+footer article:nth-of-type(4) p
+{
+    color: #AAAA99;
+    width: 300px;
+    margin-bottom: 30px;
+}
+footer article:nth-of-type(3) p:nth-of-type(3)
+{
+    height: 1px;
+    background-color:#AAAA99 ;
+}
+footer article:nth-of-type(4) form span
+{
+    display: flex;
+}
+footer article:nth-of-type(4) form span input
+{
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+footer article:nth-of-type(4) form span input:first-of-type
+{
+    background-color: #3D3D4D;
+    color: #AAAA99;
+}
+footer article:nth-of-type(4) form span input:last-of-type
+{
+    background-color:  #7370D8;
+    color: #fff;
+}
+/*********************************************************************/
+
+.sec13
+{
+    padding: 30px 0;
+    background-color: #1b1b2c;
+    color: #AAAA99;
+}
+.sec13 article ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    color: #7a7a75;
+}
+
+/**************************** Services.html *****************************************/
+
+.serv-headr
+{
+    background: linear-gradient(rgba(115,112,216,.5),rgba(115,112,216,.5)),
+    url("../images/service/service-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+
+}
+.serv-headr article p
+{
+    font-size: 17px;
+}
+
+/**************************** Services.html *****************************************/
+
+.proj-headr
+{
+    background: linear-gradient(rgba(115,112,216,.5),rgba(115,112,216,.5)),
+    url("../images/project/project-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+
+}
+.proj-headr article p
+{
+    font-size: 17px;
+}
+/****************************team.html*****************************************/
+
+.sec7-team
+{
+    background-color: #fff;
+    color: #000;
+}
+.sec7-team article figure div
+{
+    color: #fff;
+}
+
+/****************************blog.html*****************************************/
+
+.blog-headr
+{
+    background: linear-gradient(rgba(115,112,216,.5),rgba(115,112,216,.5)),
+    url("../images/blog/blog-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+
+}
+.blog-headr article p
+{
+    font-size: 17px;
+}
+
+/****************************contact.html*****************************************/
+
+.contact-headr
+{
+    background: linear-gradient(rgba(115,112,216,.5),rgba(115,112,216,.5)),
+    url("../images/about/about-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+
+}
+.contact-headr article p
+{
+    font-size: 17px;
+}
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+@media (min-width: 576px) {
+
+    header .carousel article
+    {
+        width: 80%;
+    }
+    header .carousel article figure button
+    {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .sec1-cont
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav article .navbar-toggler
+    {
+        display: none;
+    }
+    nav aside ul li:first-of-type
+    {
+        animation-delay: .8s;
+    }
+    nav aside ul li:nth-of-type(2)
+    {
+        animation-delay: .7s;
+    } nav aside ul li:nth-of-type(3)
+    {
+        animation-delay: .6s;
+    } nav aside ul li:nth-of-type(4)
+    {
+        animation-delay: .5s;
+    } nav aside ul li:nth-of-type(5)
+    {
+        animation-delay: .4s;
+    } nav aside ul li:nth-of-type(6)
+    {
+        animation-delay: .3s;
+    } nav aside ul li:nth-of-type(7)
+    {
+        animation-delay: .2s;
+    } nav aside ul li:nth-of-type(8)
+    {
+        animation-delay: .1s;
+    }
+     nav .aside-drop
+    {
+        display: block;
+    }
+     nav .aside-drop ul li
+    {
+        display: inline-block;
+        margin-left: 10px;
+    }
+     nav aside ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+    }
+     nav aside ul li a:hover
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+     nav div
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .carousel article
+    {
+        top: 15%;
+        width: 80%;
+    }
+
+    header .carousel article h1
+    {
+        font-size: 55px;
+    }
+    .sec3 figure img
+    {
+        width: 70%;
+    }
+
+    .sec5 article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .sec5 article figure
+    {
+        width: 49%;
+        margin-bottom: 0;
+    }
+    .sec5 article figure .sec5-r p
+    {
+        font-size: 22px;
+    }
+    .sec6 article
+    {
+        width: 80%;
+    }
+
+    .sec6 article figure:last-of-type
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sec6 article figure:last-of-type img
+    {
+        width: 49%;
+    }
+
+    .sec7 article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sec7 article figure
+    {
+        width: 49%;
+    }
+
+    .sec8 div>article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sec8 div>article figure
+    {
+        width: 48%;
+    }
+
+    footer section
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    footer section article
+    {
+        width: 49%;
+    }
+    footer article:first-of-type ,
+    footer article:nth-of-type(2),
+    footer article:nth-of-type(3)
+    {
+        margin-bottom: 0;
+    }
+    footer article:nth-of-type(2) ul li:last-of-type
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+     nav aside ul li
+    {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    header .carousel article
+    {
+        width: 70%;
+    }
+    header .carousel article h1
+    {
+        font-size: 60px;
+    }
+    .sec2 article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec3 section
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec3 section article
+    {
+        width: 48%;
+    }
+    .sec3 section figure
+    {
+        width: 50%;
+    }
+    .sec3 figure img
+    {
+        width: 100%;
+    }
+    .sec3 article button
+    {
+        margin-bottom: 0;
+    }
+    .sec4 article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sec5 article figure
+    {
+        width: 24%;
+    }
+    .sec5 article figure .sec5-r p
+    {
+        font-size: 20px;
+    }
+
+    .sec6 article
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .sec6 article figure:first-of-type
+    {
+        width: 39%;
+    }
+    .sec6 article figure:first-of-type img
+    {
+        width: 100%;
+    }
+    .sec6 article figure:last-of-type
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 59%;
+    }
+
+    .sec7 article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec7 article figure
+    {
+        width: 24%;
+    }
+
+    .sec8 div>article
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sec8 div>article figure
+    {
+        width: 24%;
+    }
+
+    .sec9 div>h1
+    {
+        font-size: 30px;
+    }
+
+    .sec9 article h3
+    {
+        color: #7370D8;
+    }
+    .sec9 article p
+    {
+        color: #968888;
+        font-size: 20px;
+    }
+    .sec10 figure
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sec10 figure img
+    {
+        width: 15%;
+        margin-bottom: 0;
+
+    }
+    .sec11 article
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec11 article figure
+    {
+        width: 50%;
+    }
+    .sec11 article aside
+    {
+        width: 50%;
+    }
+    .sec11 article aside h3
+    {
+        margin-top: 0;
+    }
+
+    .sec11 form div
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec11 form div input
+    {
+        width: 47%;
+        margin-right: 20px;
+    }
+    .sec11 form div input:last-of-type
+    {
+        margin-right: 0;
+    }
+
+    .sec11 form input:not(input[type='submit'])
+    {
+        margin-bottom: 20px;
+        padding: 15px 10px;
+    }
+    .sec11 form textarea
+    {
+        width: 100%;
+        height: 150px;
+        resize: none;
+        padding: 15px 10px;
+    }
+    .sec11 form>input
+    {
+        background-color:#7370D8 ;
+        color: #fff;
+        padding: 15px 50px;
+        border: 2px solid #7370D8;
+        margin-top: 30px;
+        transition: all .5s;
+    }
+    .sec11 form>input:hover
+    {
+        background-color: #fff;
+        color: #7370D8;
+    }
+
+    .sec12 article
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec12 h2
+    {
+        width: 79%;
+        margin-right: 20px;
+    }
+    .sec12 button
+    {
+        width: 20%;
+    }
+    .sec12 h2
+    {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    footer section
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    footer section article
+    {
+        width: 29%;
+    }
+
+    footer section article:last-of-type
+    {
+        margin-right: 0;
+    }
+    footer article:first-of-type ,
+    footer article:nth-of-type(2),
+    footer article:nth-of-type(3)
+    {
+        margin-bottom: 0;
+    }
+    footer article:nth-of-type(2) ul li:last-of-type
+    {
+        margin-bottom: 0;
+    }
+    footer article:first-of-type ul li:last-of-type
+    {
+        margin-right: 0;
+    }
+    footer article:nth-of-type(3) p,
+    footer article:nth-of-type(4) p
+    {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    footer article:nth-of-type(4) form span
+    {
+        display: flex;
+    }
+    footer article:nth-of-type(4) form span input:first-of-type
+    {
+        width: 70%;
+    }
+    footer article:nth-of-type(4) form span input:last-of-type
+    {
+        width: 20%;
+        padding: 10px;
+    }
+
+    footer article:first-of-type p
+    {
+        width: 200px;
+    }
+
+    .sec13 article
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+     nav aside ul li
+    {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    header .carousel article
+    {
+        width: 60%;
+    }
+
+
+    footer article:nth-of-type(3) p,
+    footer article:nth-of-type(4) p
+    {
+        width: 250px;
+    }
+
+    footer article:nth-of-type(4) form span input:first-of-type
+    {
+        width: 70%;
+    }
+    footer article:nth-of-type(4) form span input:last-of-type
+    {
+        width: 20%;
+        padding: 10px;
+    }
+    footer article:first-of-type p
+    {
+        width: 200px;
+    }
+
+}

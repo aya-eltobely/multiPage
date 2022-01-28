@@ -1,0 +1,254 @@
+.blog-sec
+{
+    padding: 70px 0;    
+}
+.blog-sec a
+{
+    text-decoration: none;
+}
+.blog-sec .container>h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog-sec .container>p
+{
+    color: #969689;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-sec .blog-ins-sec>article
+{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blog-sec .blog-ins-sec>article figure
+{
+    background-color:#FFFFFF ;
+    box-shadow: 0 0 15px 1px #DDD;
+}
+.blog-sec .blog-ins-sec>article figure figcaption
+{
+    padding: 25px 20px;
+}
+.blog-sec .blog-ins-sec>article figure figcaption p
+{
+    font-size: 15px !important;
+}
+.blog-sec .blog-ins-sec>article figure figcaption p span
+{
+    color:#7370D8 ;
+}
+.blog-sec .blog-ins-sec>article figure img
+{
+    width: 100%;
+}
+.blog-sec .blog-ins-sec .last-blog-contain
+{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog-sec .blog-ins-sec .last-blog-contain ul li
+{
+    display: inline-block;
+    color: #888888;
+}
+.blog-sec .blog-ins-sec .last-blog-contain ul li:not(.blog-sec .blog-ins-sec .last-blog-contain ul li:last-of-type)
+{
+    margin-right: 20px;
+    padding: 13px 18px;
+    border: 1px solid #888888;
+}
+.blog-sec .blog-ins-sec .last-blog-contain ul li a
+{
+    color: #888888;
+    font-size: 20px;
+}
+.actv
+{
+    background-color: #7370D8;
+}
+.actv a
+{
+    color: #fff !important;
+}
+
+
+
+
+.blog-sec .blog-ins-sec aside form span
+{
+    position: relative;
+}
+.blog-sec .blog-ins-sec aside form span input
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.blog-sec .blog-ins-sec aside form span i
+{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: #888888;
+    font-size: 20px;
+}
+.blog-sec .blog-ins-sec aside figure
+{
+    margin-top: 40px;
+}
+.blog-sec .blog-ins-sec aside figure h3
+{
+    color:#4D4E54;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.blog-sec .blog-ins-sec aside figure:first-of-type ul li
+{
+    margin-bottom: 15px;
+}
+.blog-sec .blog-ins-sec aside figure:first-of-type ul li a
+{
+    color: #7a7a83;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(2) .news-fig
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(2) .news-fig div
+{
+    margin-right: 20px;
+}
+
+.blog-sec .blog-ins-sec aside figure:nth-of-type(2) .news-fig figcaption h6
+{
+    color: #4D535D;
+    font-size: 18px;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(2) .news-fig figcaption p
+{
+    color: #919191;
+    font-size: 15px;
+}
+
+.blog-sec .blog-ins-sec aside figure:nth-of-type(3) ul li
+{
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(3) ul li a
+{
+    color: #888888;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(3) ul li i
+{
+    color: #888888;
+    margin-right: 15px;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(3) ul li:hover
+{
+    transform: translateX(10px);
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(4) ul li
+{
+    display: inline-block;
+    margin-right: 30px;
+    padding: 5px 10px;
+    border: 1px solid #888888;
+    margin-bottom: 20px;
+}
+.blog-sec .blog-ins-sec aside figure:nth-of-type(4) ul li a
+{
+    color: #888888;
+
+
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .blog-sec .blog-ins-sec>article
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+
+        
+    }
+    .blog-sec .blog-ins-sec>article figure
+    {
+        width: 48%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .blog-sec .blog-ins-sec
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .blog-sec .blog-ins-sec>article
+    {
+        width: 68%;
+        order: 1;
+        
+    }
+    .blog-sec .blog-ins-sec .last-blog-contain
+    {
+        order: 3;
+    }
+    .blog-sec .blog-ins-sec>aside
+    {
+        width: 25%;
+        order: 2;
+    }
+    .blog-sec .blog-ins-sec aside figure:nth-of-type(2) .news-fig figcaption p
+    {
+        width: 100%;
+    }
+    
+}
+
+/*
+.blog-sec .blog-ins-sec>article
+{
+    float: left;
+    width: 69%;
+    
+}
+.blog-sec .blog-ins-sec>aside
+{
+    float: right;
+    width: 29%;
+}
+.blog-sec .blog-ins-sec>article
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.blog-sec .blog-ins-sec>article figure
+{
+    width: 49%;
+}
+*/
